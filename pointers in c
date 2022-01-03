@@ -1,0 +1,30 @@
+//ctrl+s
+#include <stdio.h>
+int main(){
+    /*int a = 9 ;
+    int b=8;
+    int c=90;
+    int *add_a , *add_b; //define or declaration
+    add_a=&a;//initialize
+    int *add_c =&c ;
+    add_b=&b;
+    printf("%d%\n",add_a);
+    printf("the value at a is %d%\n",*add_a);
+    printf("%d%\n",add_b);
+    printf("%d%\n",add_c);
+    return 0 ; */
+    int a = 10 ;
+    int *b = &a;  // 101
+
+    printf("%d \n " , a );
+    printf("%d \n " , &a );
+    printf("%d \n " , b );
+    printf("%d \n " , *b );
+    *b=2; 
+    printf("%d \n " , a );
+    printf("%d \n " , &a );
+    printf("%d \n " , b );
+    printf("%d \n " , *b );
+    printf("%d \n " , *&a );
+return 0;
+}
